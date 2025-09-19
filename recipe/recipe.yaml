@@ -1,5 +1,5 @@
 context:
-  version: "0.3.1"
+  version: "0.3.2"
   python_min: '3.9'
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/m/mkdocs-llmstxt/mkdocs_llmstxt-${{ version }}.tar.gz
-    sha256: 123119d9b984c1d1224ed5af250bfbc49879ad83decdaff59d8b0ebb459ddc54
+    sha256: dd63acb8257fca3244058fd820acd4700c1626dbe48ad3a1a2cc9c599f8e4b7f
 
 build:
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
